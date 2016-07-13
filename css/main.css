@@ -1,0 +1,60 @@
+*{
+	padding:0;
+	margin: 0;
+}
+html,body{
+	background-color: #B2B2B2;
+	font-family: arial;
+}
+nav, .nav-wrapper{
+	position: fixed;
+	background-color: transparent;
+	transition: .5s;
+}
+
+h1#bienv{
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin: auto;
+	text-align: center;
+	color:rgba(255,255,255,.8);
+}
+
+.brand-log{
+	position: absolute !important;
+	transition: .5s !important;
+}
+.cover{
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin: auto;
+	height: 100%;
+	z-index: -1;
+}
+.cover.first{
+	background-image: url(/img/codigo.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+.cover.second{
+	top:200%;
+}
+.cover.third{
+	top:400%;
+	background-image: url(/img/mac.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+.large-top-space{
+	padding-top: 200px;
+}
