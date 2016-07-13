@@ -40,7 +40,7 @@ h1#bienv{
 	z-index: -1;
 }
 .cover.first{
-	background-image: url(/img/codigo.jpg);
+	background-image: url(../img/codigo.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
@@ -50,7 +50,7 @@ h1#bienv{
 }
 .cover.third{
 	top:400%;
-	background-image: url(/img/mac.jpg);
+	background-image: url(../img/mac.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
